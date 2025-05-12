@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -9,9 +8,10 @@ import (
 func main() {
 	r := gin.Default()
 
-	r.GET("/", func(c *gin.Context) {
-		fmt.Sprint("hello world!")
-		c.String(http.StatusOK, "Hello World!")
+	r.GET("/hi", func(c *gin.Context) {
+		c.JSON(http.StatusOK, map[string]interface{}{
+			"msg": "ok",
+		})
 	})
 
 	r.Run(":8080")
