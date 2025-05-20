@@ -1,8 +1,8 @@
-HARBOR_URL= registry-dev.idc.com/system_containers
+HARBOR_URL= registry-dev.21vianet.com/system_containers
 BUILDER_IMG = ${HARBOR_URL}/golang:alpine3.21
 BASE_IMG = ${HARBOR_URL}/alpine:3.21
 ARTIFACT_NAME = httpdemo
-VERSION = v1.0
+VERSION = v2.0
 
 build:
 	mkdir -p binary/

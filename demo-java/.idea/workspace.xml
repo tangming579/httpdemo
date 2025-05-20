@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf037a67-9dc9-4bb3-be59-4bd977a90c2c" name="Changes" comment="update java project" />
+    <list default="true" id="cf037a67-9dc9-4bb3-be59-4bd977a90c2c" name="Changes" comment="update java project">
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/dto/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-go/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-go/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/tcpclient/TcpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,9 +39,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2vODGl5rj0eTULkLswCiR24olAu" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,7 +65,7 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Projects/httpdemo/demo-java/demo/src/main/docker",
+    "last_opened_file_path": "E:/Projects/httpdemo/demo-java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,6 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744007132969</updated>
       <workItem from="1744007134254" duration="9626000" />
+      <workItem from="1747708095818" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="init java project">
       <option name="closed" value="true" />
